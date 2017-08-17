@@ -5,10 +5,10 @@
 # Site
 title: damifan
 subtitle: 我叫大米饭，我爱吃馒头！
-description: 大米饭
+description: 大米饭 blog java
 author: damifan
-language:
-timezone:
+language: 中文
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -34,7 +34,7 @@ titlecase: false # Transform title into titlecase
 external_link: true # Open external links in new tab
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -81,3 +81,22 @@ deploy:
   repo: https://github.com/damifan/damifan.github.io.git
   branch: [master]
   message:
+
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
