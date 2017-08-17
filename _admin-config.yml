@@ -1,0 +1,7 @@
+options:
+  lineNumbers: true
+  overwriteImages: true
+  imagePath: /assets/images
+  askImageFilename: true
+editor:
+  lineNumbers: true

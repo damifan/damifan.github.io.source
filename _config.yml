@@ -100,3 +100,9 @@ jsonContent:
     excerpt: false
     categories: false
     tags: true
+
+# hexo-admin authentification
+admin:
+  username: damifan
+  password_hash: $2a$10$z2D2UwdQcKbV.tLBh/nBPeT4KTUtvyiH23T.zGs7qDIbthZ4eXOuq
+  secret: damifan
