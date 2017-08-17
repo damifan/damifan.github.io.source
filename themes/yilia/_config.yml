@@ -84,8 +84,8 @@ duoshuo: false
 wangyiyun: false
 
 #3、畅言
-changyan_appid: false
-changyan_conf: false
+changyan_appid: 'cytauTk0U'
+changyan_conf: 'prod_0ad0b1b4d9c8d489eaee02da4acf1ff4'
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
 disqus: false
@@ -95,7 +95,7 @@ style:
   # 头像上面的背景颜色
   header: '#4d4d4d'
   # 右滑板块背景
-  slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
+  slider: 'linear-gradient(200deg,#5FD9CD,#EAF786)'
 
 # slider的设置
 slider:
