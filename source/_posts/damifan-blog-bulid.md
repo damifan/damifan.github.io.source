@@ -8,5 +8,5 @@ tags:
 
 大米饭的博客今天上线了，可以记录自己的小秘密了。
 
-![上图](/assets/photos/动物/Koala.jpg)
+![上图](/assets/img/Koala.jpg)
 

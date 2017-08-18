@@ -68,6 +68,7 @@
 
       <% if (!index && theme.share_jia){ %>
         <%- partial('post/share') %>
+      <span id="busuanzi_container_page_pv">本文被围观了<span id="busuanzi_value_page_pv"></span>次</span>
       <% } %>
       <div class="clearfix"></div>
     </div>
@@ -87,7 +88,7 @@
       url: config.url+url_for(post.path)
     }) %>
   <% } %>
-  
+
   <% if (theme.wangyiyun){ %>
   <%- partial('post/wangyiyun', {
       key: post.slug,
