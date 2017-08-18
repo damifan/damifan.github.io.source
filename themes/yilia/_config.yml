@@ -2,7 +2,7 @@
 
 menu:
   主页: /
-  #随笔: /tags/随笔/
+  随笔: /tags/随笔/
   相册: /photos/
 
 # SubNav
@@ -34,7 +34,7 @@ root:
 # Content
 
 # 文章太长，截断按钮文字
-excerpt_link: more
+excerpt_link: 'more'
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
@@ -64,7 +64,7 @@ toc_empty_wording: '目录，不存在的…'
 top: true
 
 # Miscellaneous
-baidu_analytics: ''
+baidu_analytics: '423908f63b53d2b2564dd57c339d85d4'
 google_analytics: ''
 favicon: /favicon.png
 
