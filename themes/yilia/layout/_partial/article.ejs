@@ -81,8 +81,8 @@
 
 
 <% if (!index && post.comments){ %>
-  <% if (theme.duoshuo){ %>
-  <%- partial('post/duoshuo', {
+  <% if (theme.gitment){ %>
+  <%- partial('post/gitment', {
       key: post.slug,
       title: post.title,
       url: config.url+url_for(post.path)
