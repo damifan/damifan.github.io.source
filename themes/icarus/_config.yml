@@ -25,12 +25,10 @@ customize:
     highlight: monokai
     sidebar: right # sidebar position, options: left, right or leave it empty
     thumbnail: true # enable posts thumbnail, options: true, false
-    favicon: # path to favicon
+    favicon: /assets/img/favicon.ico # path to favicon
     social_links:
-        github: http://github.com/ppoffice/hexo-theme-icarus
-        twitter: /
-        facebook: /
-        dribbble: /
+        github: http://github.com/damifan
+        weibo: http://weibo.com/damifan320
         rss: /
     social_link_tooltip: true # enable the social link tooltip, options: true, false
 
@@ -68,7 +66,7 @@ comment:
     livere: # enter livere uid here
 
 # Share
-share: default # options: jiathis, bdshare, addtoany, default
+share: bdshare # options: jiathis, bdshare, addtoany, default
 
 # Plugins
 plugins:
@@ -88,3 +86,6 @@ miscellaneous:
         google_plus:
     links:
         Hexo: http://hexo.io
+        JD: //www.jd.com
+        百度: //www.baidu.com
+        Github: https://github.com/

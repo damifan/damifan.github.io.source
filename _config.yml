@@ -92,14 +92,14 @@ jsonContent:
     path: true
     text: false
     raw: false
-    content: false
+    content: true
     slug: false
     updated: false
     comments: false
     link: false
     permalink: false
     excerpt: false
-    categories: false
+    categories: true
     tags: true
 
 # hexo-admin authentification

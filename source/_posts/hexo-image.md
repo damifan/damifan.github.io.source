@@ -4,6 +4,8 @@ date: 2017-08-17 16:37:32
 tags:
  - hexo
  - blog
+categories:
+ - hexo
 ---
 
 **资源文件夹**
