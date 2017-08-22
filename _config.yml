@@ -107,3 +107,9 @@ admin:
   username: damifan
   password_hash: $2a$10$z2D2UwdQcKbV.tLBh/nBPeT4KTUtvyiH23T.zGs7qDIbthZ4eXOuq
   secret: damifan
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
