@@ -58,7 +58,7 @@ mkdir -p /data/db
 **MongoDB后台管理 Shell**
 如果你需要进入MongoDB后台管理，你需要先打开mongodb装目录的下的bin目录，然后执行mongo命令文件。
 MongoDB Shell是MongoDB自带的交互式Javascript shell,用来对MongoDB进行操作和管理的交互式环境。
-当你进入mongoDB后台后，它默认会链接到 mongodb 文档（数据库）：
+当你进入mongoDB后台后，它默认会链接到 test 文档（数据库）：
 ```
 [root@localhost bin]# ./mongo
 MongoDB shell version v3.4.7
@@ -89,6 +89,6 @@ MongoDB 提供了简单的 HTTP 用户界面。 如果你想启用该功能，�
 ./mongod --dbpath=/data/db --rest
 ```
 MongoDB 的 Web 界面访问端口比服务的端口多1000。
-如果你的MongoDB运行端口使用默认的27017，你可以在端口号为28017访问web用户界面，即地址为：http://localhost:28017。
+如果你的MongoDB运行端口使用默认的27017，你可以在端口号为28017访问web用户界面，即地址为：http://localhost:28017 。
 
 {% asset_img mongodb_web.png %}
