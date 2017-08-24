@@ -6,5 +6,4 @@ node_modules/
 .deploy*/
 .idea/
 damifan.github.io.iml
-public
-"source/assets/photos/\350\215\211\345\216\237/"
+/public
