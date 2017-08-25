@@ -1,4 +1,4 @@
-title: CentOS-7下安装MongoDB.md
+title: CentOS-7下安装MongoDB
 tags:
   - mondodb
   - centos
