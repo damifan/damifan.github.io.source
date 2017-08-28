@@ -22,6 +22,8 @@ system.users
 system.version
 > 
 ```
+<!-- more -->
+
 会列出本库的collections
 
 1.在admin库中，添加用户并授权
