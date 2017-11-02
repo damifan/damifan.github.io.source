@@ -18,7 +18,7 @@ Run Dashboard
 ![这里写图片描述](https://www.jetbrains.com/idea/whatsnew/img/2017.2/idea_2017_2_spring_run_dashboard.gif "")
 
 是不是很炫，直接可以通过Dashboard看到Springboot的启动项目，并显示相应的端口等信息，同时还能在这里进行相应的操作。下面我们来看看如何调用出Dashboard。
-
+<!-- more -->
 首先，你的项目应该是一个springboot的项目。然后进入Edit configurations，点击+号，找到springboot选项，添加一个springboot的配置。  
 ![这里写图片描述](http://img.blog.csdn.net/20170823121157933?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd281NDEwNzU3NTQ=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "")  
 然后依次配置，name，Main class（包含main方法的启动类），working directory，Use classpath of module，jre等。  
@@ -26,7 +26,7 @@ Run Dashboard
 ![这里写图片描述](http://img.blog.csdn.net/20170823121437461?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvd281NDEwNzU3NTQ=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast "")
 
 这样就完成这一新特性的配置。尝试一下吧。效果与官网提供的相同。
-<!-- more -->
+
 Actuator endpoints
 ------------------
 
